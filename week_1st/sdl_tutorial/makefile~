@@ -1,0 +1,9 @@
+all:
+	make -C lesson01
+	make -C lesson02
+	make -C lesson03
+
+clean:
+	make -C lesson01 clean
+	make -C lesson02 clean
+	make -C lesson03 clean

@@ -1,0 +1,5 @@
+all:
+	g++ -o lesson16 lesson16.cpp -lSDL -lSDL_image -lSDL_ttf
+
+clean:
+	rm -rf lesson16
