@@ -1,0 +1,1 @@
+cmd_/root/week_1st/misc/hello.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-2.6.32-49-generic/scripts/module-common.lds --build-id -o /root/week_1st/misc/hello.ko /root/week_1st/misc/hello.o /root/week_1st/misc/hello.mod.o
